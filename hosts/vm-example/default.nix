@@ -5,14 +5,14 @@ imports = [];
 
 i18n = {
 consoleFont = "Lat2-Terminus16";
-consoleKeyMap = "us";
+consoleKeyMap = "de";
 defaultLocale = "en_US.UTF-8";
 };
 
-time.timeZone = "America/Los_Angeles";
+time.timeZone = "Eruope/Berlin";
 
 programs.mtr.enable = true;
 programs.bash.enableCompletion = true;
 
-networking.hostName = "themelios-vm";
+networking.hostName = "nixos-lenovo";
 }
